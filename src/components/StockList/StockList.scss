@@ -1,0 +1,16 @@
+.root {
+  height: 100%;
+
+  position: relative;
+
+  background: #2d2c3c;
+}
+
+.list {
+  position: absolute;
+  top: 57px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}

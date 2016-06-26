@@ -1,0 +1,21 @@
+@import '~stylesheets';
+
+.root {
+  width: 100%;
+  padding: 20px;
+
+  color: rgba(#fff, .3);
+
+  font: 400 11px / 1.7 $font-main;
+  text-align: right;
+}
+
+.link {
+  color: rgba(#fff, .3);
+
+  transition: all .2s ease-out;
+
+  &:hover {
+    color: rgba(#fff, .4);
+  }
+}

@@ -1,0 +1,38 @@
+.root {
+  width: 100%;
+  flex-grow: 1;
+  padding: 30px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.emptyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.title {
+  color: #b3b3bd;
+
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+}
+
+.lastDataUpdateLabel {
+  margin: 5px 0;
+
+  color: #5a6579;
+
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left;
+}

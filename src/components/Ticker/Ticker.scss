@@ -1,0 +1,86 @@
+@import '~stylesheets';
+
+.root {
+  background: #363547;
+  border-right: 3px solid transparent;
+
+  transition: all .1s ease-out, border-color .2s ease-out;
+
+  &:hover {
+    background: #232232;
+  }
+
+  &:nth-child(even) {
+    background: #2f2e3e;
+
+    &:hover {
+      background: #232232;
+    }
+  }
+
+  &.selected {
+    background: #232232;
+    border-color: #a1b0c3;
+  }
+}
+
+.link {
+  display: block;
+  height: 100%;
+  padding: 10px 18px 10px 20px;
+
+  position: relative;
+
+  font-family: $font-main;
+  text-decoration: none;
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.symbol {
+  color: #9193a2;
+
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.name {
+  max-width: 320px;
+  padding-top: 10px;
+
+  color: #717382;
+
+  font-weight: 300;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.price {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+
+  color: #ccc;
+
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.change {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  &.gain {
+    color: #00d2a7;
+  }
+
+  &.loss {
+    color: #b84c42;
+  }
+}

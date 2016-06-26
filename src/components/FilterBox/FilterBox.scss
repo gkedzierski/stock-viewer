@@ -1,0 +1,19 @@
+.root {
+}
+
+.field {
+  width: 100%;
+  padding: 20px;
+
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #80471a;
+  color: #aaa;
+
+  font-size: 14px;
+  font-weight: 300;
+
+  &::placeholder {
+    color: rgba(#fff, .2);
+  }
+}

@@ -1,0 +1,29 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+
+* {
+  @include font-smoothing;
+  -webkit-font-smoothing: antialiased;
+
+  box-sizing: border-box;
+
+  font-family: $font-main;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #2f3140;
+  min-width: 760px;
+  min-height: 760px;
+}
+
+#app {
+  height: 100%;
+  min-width: 760px;
+  min-height: 480px;
+}
